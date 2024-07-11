@@ -1,0 +1,37 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+.text-block {
+  max-width: 400px;
+  margin-top: 0;
+  margin-left: 10px;
+  font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-size: 13px;
+  line-height: 15px;
+  position: relative;
+}
+
+.text-block.footer {
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.image {
+  margin-top: 25px;
+  margin-bottom: 6px;
+  margin-left: 10px;
+  padding-bottom: 0;
+}
+
+.title {
+  margin-bottom: 89px;
+  margin-left: 33px;
+  font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-size: 200px;
+  line-height: 250px;
+}
